@@ -2,13 +2,17 @@
 <html lang="en">
 
 <head>
+    <title>A Memory Game</title>
+    <!-------Required Meta tag-------->
     <meta charset="utf-8">
-    <title>Memory Game</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-------fontawesome icons-------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-------google fonts-------->
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker">
+    <!-------main linked sheets-------->
     <link rel="stylesheet" href="css/app.css">
 </head>
 
@@ -31,47 +35,57 @@
             </div>
 
             <div class="restart" onclick=startGame()>
-                <i class="fa fa-repeat" style="color: blue"></i>
+                Refresh <i class="fas fa-retweet" style="color: blue"></i>
             </div>
         </section>
 
         <ul class="deck" id="card-deck">
             <li class="card" type="diamond">
-                <i class="fa fa-diamond"></i>
+                <i class="fab fa-facebook-f"></i>
             </li>
+
             <li class="card" type="plane">
-                <i class="fa fa-paper-plane-o"></i>
-            </li>
-            <li class="card match" type="anchor">
-                <i class="fa fa-anchor"></i>
-            </li>
-            <li class="card" type="bolt">
-                <i class="fa fa-bolt"></i>
+                <i class="fab fa-twitter"></i>
             </li>
 
             <li class="card match" type="anchor">
-                <i class="fa fa-anchor"></i>
+                <i class="fab fa-instagram"></i>
             </li>
+
+            <li class="card" type="bolt">
+                <i class="fab fa-whatsapp"></i>
+            </li>
+
+            <li class="card match" type="anchor">
+                <i class="fab fa-instagram"></i>
+            </li>
+
             <li class="card" type="bicycle">
-                <i class="fa fa-bicycle"></i>
+                <i class="fab fa-mailchimp"></i>
             </li>
+
             <li class="card" type="diamond">
-                <i class="fa fa-diamond"></i>
+                <i class="fab fa-facebook-f"></i>
             </li>
+
             <li class="card" type="bomb">
-                <i class="fa fa-bomb"></i>
+                <i class="fab fa-yahoo"></i>
             </li>
+
             <li class="card" type="bomb">
-                <i class="fa fa-bomb"></i>
+                <i class="fab fa-yahoo"></i>
             </li>
+
             <li class="card open show" type="bolt">
-                <i class="fa fa-bolt"></i>
+                <i class="fab fa-whatsapp"></i>
             </li>
+
             <li class="card" type="bicycle">
-                <i class="fa fa-bicycle"></i>
+                <i class="fab fa-mailchimp"></i>
             </li>
+
             <li class="card" type="plane">
-                <i class="fa fa-paper-plane-o"></i>
+                <i class="fab fa-twitter"></i>
             </li>
 
         </ul>
